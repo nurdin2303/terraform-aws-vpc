@@ -4,7 +4,7 @@
 
  ```
 module "app_name" {
-    source = "../"
+    source = "nudrdin2303/vpc/aws"
     region        = "us-east-1"
     cidr_block    = "10.0.0.0/16"
     public_cidr1  = "10.0.101.0/24"
